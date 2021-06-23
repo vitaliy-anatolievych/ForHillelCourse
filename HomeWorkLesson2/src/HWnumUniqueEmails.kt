@@ -91,7 +91,7 @@ class ManagerEmail(inputEmailsList: List<String>) {
         var symbolPosition = 0
         for (atFinder in email.indices) {
             val at = email[atFinder]
-            if (at.equals(symbol)) symbolPosition = atFinder
+            if (at == symbol) symbolPosition = atFinder
         }
         return symbolPosition
     }
