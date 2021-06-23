@@ -18,13 +18,13 @@ fun judgeCircle(moves: String): Boolean {
         val step = moves[m]
 
         when (step) {
-            'R' -> robot.coordX++
-            'L' -> robot.coordX--
-            'U' -> robot.coordY++
-            'D' -> robot.coordY--
+            'R' -> robot.x++
+            'L' -> robot.x--
+            'U' -> robot.y++
+            'D' -> robot.y--
         }
     }
-    return robot.coordX == 0 && robot.coordY == 0
+    return robot.x == 0 && robot.y == 0
 }
 
-data class Robot(var coordX: Int, var coordY: Int)
+data class Robot(var x: Int, var y: Int)
