@@ -1,5 +1,3 @@
-import java.util.*
-import kotlin.collections.ArrayList
 import kotlin.collections.HashSet
 
 fun main() {
