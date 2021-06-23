@@ -8,7 +8,7 @@ fun main() {
     val emails = readLine()
 
     // @inputEmailsList хранит в себе необработанные email которые пришли от пользователя
-    val inputEmailsList = emails!!.split(",")
+    val inputEmailsList = emails?.split(",") ?: emptyList()
 
     // Создаём отдельный класс для работы с email @ManagerEmail, и передаём в конструктор список(List<String>) email
     val managerEmail = ManagerEmail(inputEmailsList)

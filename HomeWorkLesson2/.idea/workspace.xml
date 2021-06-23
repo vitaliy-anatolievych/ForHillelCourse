@@ -17,8 +17,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/HWnumUniqueEmails.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-60">
-              <caret line="64" column="7" selection-start-line="64" selection-start-column="7" selection-end-line="64" selection-end-column="7" />
+            <state relative-caret-position="500">
+              <caret line="92" column="91" lean-forward="true" selection-start-line="92" selection-start-column="91" selection-end-line="92" selection-end-column="91" />
               <folding>
                 <element signature="e#0#88#0" expanded="true" />
               </folding>
@@ -39,11 +39,13 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/HWnumUniqueEmails.kt" />
+        <option value="$PROJECT_DIR$/src/HWjudgeCircle.kt" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="735" />
+    <option name="x" value="882" />
+    <option name="y" value="45" />
     <option name="width" value="1330" />
     <option name="height" value="1004" />
   </component>
@@ -53,8 +55,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -71,6 +71,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="RunDashboard">
@@ -137,9 +139,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="220" y="27" width="1330" height="1004" extended-state="0" />
+    <frame x="182" y="24" width="1330" height="1004" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.25939178" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2590551" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -168,13 +171,6 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/HWjudgeCircle.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="12" lean-forward="true" selection-start-column="12" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/HWJewelsInStones.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -189,10 +185,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/HWjudgeCircle.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/HWnumUniqueEmails.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-60">
-          <caret line="64" column="7" selection-start-line="64" selection-start-column="7" selection-end-line="64" selection-end-column="7" />
+        <state relative-caret-position="500">
+          <caret line="92" column="91" lean-forward="true" selection-start-line="92" selection-start-column="91" selection-end-line="92" selection-end-column="91" />
           <folding>
             <element signature="e#0#88#0" expanded="true" />
           </folding>
