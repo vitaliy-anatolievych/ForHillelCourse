@@ -68,12 +68,9 @@ class ManagerEmail(inputEmailsList: List<String>) {
      */
     private fun handlerUnnecessaryCharacters(nameCurrentEmail: String, domainCurrentEmail: String): String {
         // Введение промежуточных переменных где мы будем изменять имя и домен
-        var resultName: String
-        var resultDomain: String
-
         // 1. Проверка на множественный знак @, и удаление его.
-        resultName = nameCurrentEmail.replace("@", "")
-        resultDomain = domainCurrentEmail.replace("@", "")
+        var resultName = nameCurrentEmail.replace("@", "")
+        val resultDomain = domainCurrentEmail.replace("@", "")
 
         // 2. Отбросить всё после знака +, и удалить все точки
         val plusPosition = findPositionSymbol(resultName, '+') // Находим его позицию
