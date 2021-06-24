@@ -13,17 +13,7 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/HWnumUniqueEmails.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="72" column="24" selection-start-line="72" selection-start-column="12" selection-end-line="72" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -41,8 +31,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="933" />
-    <option name="y" value="36" />
+    <option name="x" value="414" />
+    <option name="y" value="51" />
     <option name="width" value="1330" />
     <option name="height" value="1004" />
   </component>
@@ -51,26 +41,7 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="HomeWorkLesson2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HomeWorkLesson2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HomeWorkLesson2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HomeWorkLesson2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-    </panes>
+    <panes />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -136,8 +107,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="933" y="36" width="1330" height="1004" extended-state="0" />
-    <editor active="true" />
+    <frame x="414" y="51" width="1330" height="1004" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.2590551" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -198,8 +168,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/HWnumUniqueEmails.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="72" column="24" selection-start-line="72" selection-start-column="12" selection-end-line="72" selection-end-column="24" />
+        <state relative-caret-position="420">
+          <caret line="83" column="37" selection-start-line="83" selection-start-column="37" selection-end-line="83" selection-end-column="37" />
         </state>
       </provider>
     </entry>
