@@ -12,7 +12,6 @@ class Iterator(val lists: List<List<Int>>) {
             countOfElements += lists[currentList].size
             for (num in lists.get(currentList).indices) {
                 val currentNum = lists.get(currentList).get(num)
-                // сразу же запоминаем ОДИН РАЗ И НАВСЕГДА НА ВСЮ ЖИЗНЬ ЭТОГО КЛАССА НАД КОТОРЫМ Я ПОМУЧИЛСЯ этот список для дальнейшей сортировки
                 mayBeSortedList.add(currentNum)
             }
         }
@@ -25,7 +24,6 @@ class Iterator(val lists: List<List<Int>>) {
         return isListNotEnded
     }
 
-    //@switchingList - определяет необходимость перейти на следующий список
     fun next(): Int {
         // ...
         return mayBeSortedList.get(iteration++)
