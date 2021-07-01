@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">HomeWorkLesson3</string>
+    <string name="app_name">Police Assistant</string>
+    <string name="email">Email</string>
+    <string name="calendar">Calendar</string>
+    <string name="rulesForVisit">Правило 90 на 180: В Шенгене можно оставаться не более 90 дней на каждые 180 дней: на каждые 180 календарных дней, которые следуют один за другим, проверяемый имеете право быть в Шенгене суммарно не более 90 дней.</string>
+    <string name="rules_alert">Правила</string>
+    <string name="btn_validate">Проверить</string>
 </resources>
