@@ -5,4 +5,6 @@
     <string name="rulesForVisit">Правило 90 на 180: В Шенгене можно оставаться не более 90 дней на каждые 180 дней: на каждые 180 календарных дней, которые следуют один за другим, проверяемый имеете право быть в Шенгене суммарно не более 90 дней.</string>
     <string name="rules_alert">Правила</string>
     <string name="btn_validate">Проверить</string>
+    <string name="days_left">Прибывание разрешено осталось %1$d дней</string>
+    <string name="alert_days">Прибывание запрещенно, превышен лимит в %1$d дней</string>
 </resources>
