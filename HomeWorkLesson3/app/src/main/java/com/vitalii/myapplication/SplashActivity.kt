@@ -5,10 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
-import android.util.DisplayMetrics
 import android.view.Window
-import android.view.WindowManager
-import android.widget.FrameLayout
 import android.widget.VideoView
 
 class SplashActivity : AppCompatActivity() {
