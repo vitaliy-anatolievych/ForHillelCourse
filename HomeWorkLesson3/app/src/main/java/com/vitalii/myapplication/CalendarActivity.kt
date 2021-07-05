@@ -17,18 +17,19 @@ class CalendarActivity : AppCompatActivity() {
         setContentView(R.layout.activity_calendar)
 
         val dateEditText = findViewById<EditText>(R.id.editTextTextMultiLine)
-        val arrayDate: ArrayList<String> = ArrayList()
+
 
         val validateBtn = findViewById<Button>(R.id.validate_btn)
         val resultTxt = findViewById<TextView>(R.id.result)
         validateBtn.setOnClickListener {
+            val arrayDate: ArrayList<String> = ArrayList()
             arrayDate.addAll(dateEditText.text.split("\n"))
 
             if (dateEditText.text.isEmpty()) {
                 resultTxt.text = "Поле пустое"
                 resultTxt.setTextColor(Color.RED)
             } else {
-                val daysInEU = calculateResult(arrayDate)
+                var daysInEU = calculateResult(arrayDate)
                 if (daysInEU < 90) {
                     resultTxt.text = getString(R.string.days_left, 90 - daysInEU)
                     resultTxt.setTextColor(Color.GREEN)
